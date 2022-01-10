@@ -1,0 +1,105 @@
+*{
+    margin: 10px;
+    padding: 10px;
+    box-sizing: border-box;
+}
+a{
+    text-decoration: none;
+}
+.padre{
+    display: flex;
+    flex-flow: column nowrap;
+}
+
+    .header{
+        background-color: #1f2937;;
+        display: flex;
+        flex-flow: column nowrap;
+    }
+        .menu{
+            display: flex;
+            flex-flow: row nowrap;
+            align-items: center;
+            height: 100px;
+        }
+            .logo{
+                flex: 1 1 auto;
+            }
+            .logo a{
+                color: #ffff;
+                font-size: 30px;
+            }
+            .logo:hover a{
+                color: gray;
+            }
+            .nav{
+                flex: 8 1 auto;
+            } 
+            .links{
+                flex: 2 1 auto;
+                display: flex;
+            }
+            .ola:hover a{
+                color: gray;
+            }
+            .lista{
+                display: flex;
+                list-style-type: none;
+            }
+                .lista a{
+                    color: #ffff;
+                    font-size: 15px;
+                }
+            .textgimag{
+                display: flex;
+            }
+                .texto{
+                    flex: 1 1 auto;
+                }
+                .img{
+                    padding: -10%;
+                }
+    .text{
+        display: flex;
+        justify-content: center;
+    }
+    .section{
+        align-items: center;
+    }
+        .cards{
+            display: flex;
+            flex-flow: row nowrap;
+            justify-content: center;
+        }
+            .article{
+                flex:1 1 50%;
+                border-color: blue;
+                border-radius: 10%;
+                border-width: 5px;
+                border-style: solid;
+            }
+            .article img{
+                width: 100%;
+            }
+    .agregado{
+        background-color: #e5e7eb;
+        display: flex;
+        justify-content: center;
+        padding: 10%;
+    }        
+    .footer{
+        display: flex;
+        justify-content: center;
+    }
+        .pie{
+            background-color: #3882f6;
+            width: 500px;
+        }
+    button{
+        border-color: white;
+        background-color: #3882f6;
+        color: white;
+        border-radius: 20%;
+        padding-left: 5%;
+        padding-right: 5%;
+    }
